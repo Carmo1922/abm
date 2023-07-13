@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div class="select_day">
+            <button id="anterior">◀</button>
+            <span id="dia_label">DIA</span>
+            <button id="siguiente">▶</button>
+        </div>
+
+        <form action="">
+
+            <fieldset id="martes">
+                <label for="sin_martes" class="sin_servicio">
+                    <p>Sin Servicio</p>
+                    <input type="checkbox" name="sin_servicio" id="sin_martes" onchange="toggleFieldsets()">
+                </label>
+                <label for="principal">
+                    <p>Plato Principal</p>
+                    <input type="text" name="food" id="" placeholder="Principal"></input>
+                </label>
+                <label for="dieta">
+                    <p>Dieta</p>
+                    <input type="text" name="food" id="" placeholder="Dieta"></input>
+                </label>
+                <label for="tarta">
+                    <p>Tarta</p>
+                    <input type="text" name="food" id="" placeholder="Tarta"></input>
+                </label>
+                <label for="pizza">
+                    <p>Pizza</p>
+                    <input type="text" name="food" id="" placeholder="Pizza"></input>
+                </label>
+                <label for="sandwich">
+                    <p>Sandwich</p>
+                    <input type="text" name="food" id="" placeholder="Sandwich"></input>
+                </label>
+                <label for="vegetariano">
+                    <p>Vegetariano</p>
+                    <input type="text" name="food" id="" placeholder="Vegetariano"></input>
+                </label>
+            </fieldset>
+
+            <fieldset id="miercoles" >
+                <label for="sin_miercoles" class="sin_servicio">
+                    <p>Sin Servicio</p>
+                    <input type="checkbox" name="sin_servicio" id="sin_miercoles onchange="toggleFieldsets()">
+                </label>
+                <label for="principal">
+                    <p>Plato Principal</p>
+                    <input type="text" name="food" id="" placeholder="Principal"></input>
+                </label>
+                <label for="dieta">
+                    <p>Dieta</p>
+                    <input type="text" name="food" id="" placeholder="Dieta"></input>
+                </label>
+                <label for="tarta">
+                    <p>Tarta</p>
+                    <input type="text" name="food" id="" placeholder="Tarta"></input>
+                </label>
+                <label for="pizza">
+                    <p>Pizza</p>
+                    <input type="text" name="food" id="" placeholder="Pizza"></input>
+                </label>
+                <label for="sandwich">
+                    <p>Sandwich</p>
+                    <input type="text" name="food" id="" placeholder="Sandwich"></input>
+                </label>
+                <label for="vegetariano">
+                    <p>Vegetariano</p>
+                    <input type="text" name="food" id="" placeholder="Vegetariano"></input>
+                </label>
+            </fieldset>
+
+            <fieldset id="jueves" >
+                <label for="sin_jueves" class="sin_servicio">
+                    <p>Sin Servicio</p>
+                    <input type="checkbox" name="sin_servicio" id="sin_jueves" onchange="toggleFieldsets()">
+                </label>
+                <label for="principal">
+                    <p>Plato Principal</p>
+                    <input type="text" name="food" id="" placeholder="Principal"></input>
+                </label>
+                <label for="dieta">
+                    <p>Dieta</p>
+                    <input type="text" name="food" id="" placeholder="Dieta"></input>
+                </label>
+                <label for="tarta">
+                    <p>Tarta</p>
+                    <input type="text" name="food" id="" placeholder="Tarta"></input>
+                </label>
+                <label for="pizza">
+                    <p>Pizza</p>
+                    <input type="text" name="food" id="" placeholder="Pizza"></input>
+                </label>
+                <label for="sandwich">
+                    <p>Sandwich</p>
+                    <input type="text" name="food" id="" placeholder="Sandwich"></input>
+                </label>
+                <label for="vegetariano">
+                    <p>Vegetariano</p>
+                    <input type="text" name="food" id="" placeholder="Vegetariano"></input>
+                </label>
+            </fieldset>
+
+            <fieldset id="viernes" >
+                <label for="sin_viernes" class="sin_servicio">
+                    <p>Sin Servicio</p>
+                    <input type="checkbox" name="sin_servicio" id="sin_viernes" onchange="toggleFieldsets()">
+                </label>
+                <label for="principal">
+                    <p>Plato Principal</p>
+                    <input type="text" name="food" id="" placeholder="Principal"></input>
+                </label>
+                <label for="dieta">
+                    <p>Dieta</p>
+                    <input type="text" name="food" id="" placeholder="Dieta"></input>
+                </label>
+                <label for="tarta">
+                    <p>Tarta</p>
+                    <input type="text" name="food" id="" placeholder="Tarta"></input>
+                </label>
+                <label for="pizza">
+                    <p>Pizza</p>
+                    <input type="text" name="food" id="" placeholder="Pizza"></input>
+                </label>
+                <label for="sandwich">
+                    <p>Sandwich</p>
+                    <input type="text" name="food" id="" placeholder="Sandwich"></input>
+                </label>
+                <label for="vegetariano">
+                    <p>Vegetariano</p>
+                    <input type="text" name="food" id="" placeholder="Vegetariano"></input>
+                </label>
+            </fieldset>
+
+            <fieldset id="lunes" >
+                <label for="sin_lunes" class="sin_servicio">
+                    <p>Sin Servicio</p>
+                    <input type="checkbox" name="sin_servicio" id="sin_lunes" onchange="toggleFieldsets()">
+                </label>
+                <label for="principal">
+                    <p>Plato Principal</p>
+                    <input type="text" name="food" id="" placeholder="Principal"></input>
+                </label>
+                <label for="dieta">
+                    <p>Dieta</p>
+                    <input type="text" name="food" id="" placeholder="Dieta"></input>
+                </label>
+                <label for="tarta">
+                    <p>Tarta</p>
+                    <input type="text" name="food" id="" placeholder="Tarta"></input>
+                </label>
+                <label for="pizza">
+                    <p>Pizza</p>
+                    <input type="text" name="food" id="" placeholder="Pizza"></input>
+                </label>
+                <label for="sandwich">
+                    <p>Sandwich</p>
+                    <input type="text" name="food" id="" placeholder="Sandwich"></input>
+                </label>
+                <label for="vegetariano">
+                    <p>Vegetariano</p>
+                    <input type="text" name="food" id="" placeholder="Vegetariano"></input>
+                </label>
+            </fieldset>
+
+        </form>
+
+    </main>
+    
+    <footer></footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
