@@ -7,7 +7,7 @@ body {
 }
 
 .logo_sur{
-    size: 1px;
+    width: 70px;
 }
 
 .select_day {
@@ -15,7 +15,7 @@ body {
     color: aliceblue;
     display: flex;
     justify-content: center;
-    margin: 10% 5% 0 5%;
+    margin: 0 5% 0 5%;
 }
 
 #dia_label {
