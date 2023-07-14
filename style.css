@@ -6,7 +6,9 @@ body {
     min-height: 100vh;
 }
 
-
+.logo_sur{
+    size: 1px;
+}
 
 .select_day {
 
