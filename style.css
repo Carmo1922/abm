@@ -14,11 +14,29 @@ body {
   min-height: 100vh;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 2% 5% 2%;
+}
+
+
+.logo_sur {
+    width: 50px;
+    border-radius: 100%;
+}
+
+.logo_klonal {
+    width: 50px;
+    border-radius: 100%;
+}
+
 .select_day {
-  color: aliceblue;
-  display: flex;
-  justify-content: center;
-  margin: 10% 5% 0 5%;
+
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin: 0 5% 0 5%;
 }
 
 #dia_label {
@@ -89,17 +107,24 @@ label p {
   font-weight: 500;
 }
 
+
 input[type="text"] {
-  background-color: rgba(165, 165, 165, 0.075);
-  color: aliceblue;
-  border: 1px solid rgba(240, 248, 255, 0.13);
-  font-size: 18px;
-  width: 300px;
-  height: 20px;
+    background-color: rgba(165, 165, 165, 0.075);
+    color: aliceblue;
+    border: 1px solid rgba(240, 248, 255, 0.13);
+    font-size: 18px;
+    width: 300px;
+    height: 20px;
+
 }
 
 input[type="checkbox"] {
   margin: 0 0 0 5%;
   width: 20px;
   vertical-align: middle;
+}
+
+
+.oculto {
+    display: none;
 }
