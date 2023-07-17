@@ -71,8 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
         fieldsets[i].style.display = "none";
     }
 
-
-
+    
 
     // Agrega eventos a los botones
     anteriorBtn.addEventListener("click", mostrarFieldsetAnterior);
@@ -81,3 +80,19 @@ document.addEventListener("DOMContentLoaded", function () {
     // Establece el texto inicial del span
     updateDiaLabel();
 });
+
+function toggleFieldsets(event) {
+    const checkbox = event.target;
+    const fieldset = checkbox.closest('fieldset');
+    const elementosOcultos = fieldset.querySelectorAll('label:not(.sin_servicio)');
+
+    if (checkbox.checked) {
+        elementosOcultos.forEach(elemento => {
+            elemento.classList.add('oculto');
+        });
+    } else {
+        elementosOcultos.forEach(elemento => {
+            elemento.classList.remove('oculto');
+        });
+    }
+}
