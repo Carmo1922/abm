@@ -1,0 +1,130 @@
+body {
+  font-family: "DM Sans", sans-serif;
+  background: rgb(41, 41, 41);
+  background: linear-gradient(
+    310deg,
+    rgba(41, 41, 41, 1) 38%,
+    rgba(37, 37, 37, 1) 45%,
+    rgba(23, 23, 23, 1) 51%,
+    rgba(31, 31, 31, 1) 58%,
+    rgba(15, 14, 14, 1) 83%,
+    rgba(4, 3, 3, 1) 100%
+  );
+  background-size: 100% 100%;
+  min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 2% 5% 2%;
+}
+
+
+.logo_sur {
+    width: 50px;
+    border-radius: 100%;
+}
+
+.logo_klonal {
+    width: 50px;
+    border-radius: 100%;
+}
+
+.select_day {
+
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin: 0 5% 0 5%;
+}
+
+#dia_label {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 30px;
+  display: grid;
+  align-items: center;
+  margin: 0 0 0 0;
+}
+
+#anterior {
+  margin: 0 8% 0 0;
+  padding: 2% 9% 2% 9%;
+  background: rgb(69, 70, 70);
+  background: linear-gradient(
+    0deg,
+    rgba(69, 70, 70, 1) 0%,
+    rgba(24, 16, 16, 1) 100%
+  );
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+}
+
+#siguiente {
+  margin: 0 0 0 8%;
+  padding: 2% 9% 2% 9%;
+  background-color: #e2e4e7;
+  background: rgb(246, 246, 246);
+  background: linear-gradient(
+    0deg,
+    rgba(246, 246, 246, 1) 0%,
+    rgba(167, 167, 167, 1) 100%
+  );
+  color: #3c4043;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+}
+
+form {
+  color: white;
+  display: grid;
+  justify-content: center;
+  margin: 5% 0 0 0;
+}
+
+fieldset {
+  border: none;
+}
+
+.sin_servicio {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.sin_servicio p {
+  font-size: 20px;
+}
+
+label p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+input[type="text"] {
+    background-color: rgba(165, 165, 165, 0.075);
+    color: aliceblue;
+    border: 1px solid rgba(240, 248, 255, 0.13);
+    font-size: 18px;
+    width: 300px;
+    height: 20px;
+
+}
+
+input[type="checkbox"] {
+  margin: 0 0 0 5%;
+  width: 20px;
+  vertical-align: middle;
+}
+
+
+.oculto {
+    display: none;
+}
